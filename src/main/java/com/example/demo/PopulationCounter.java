@@ -12,10 +12,10 @@ import java.util.List;
 import java.util.Locale;
 
 @SpringBootApplication
-public class DemoApplication {
+public class PopulationCounter {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+	public static void main(String[] args) throws IOException {
+		SpringApplication.run(PopulationCounter.class, args);
 		long sum = 0;
         String path = args[0];
 
